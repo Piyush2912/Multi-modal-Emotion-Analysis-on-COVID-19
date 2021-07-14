@@ -24,19 +24,19 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 6. Done
 
 ## Table of Contents: 
-[1. Abstract](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19/blob/main/README.md#1-abstract) 
-2. Motivation
-3. Problem Statement
-4. Introduction
-5. Requirements
-6. Dataset Creation
-7. Generic Methodology
-8. Results
-9. Summary and Conclusion
-10. Limitations
-11. Future Scope
-12. Credits
-13. License
+1. [Abstract](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19/blob/main/README.md#1-abstract) 
+2. [Motivation](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#2-motivation)
+3. [Problem Statement](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#3-problem-statement)
+4. [Introduction](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#4-introduction)
+5. [Requirements](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#5-requirements)
+6. [Dataset Creation](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#6-dataset-creation)
+7. [Generic Methodology](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#7-generic-methodology)
+8. [Results](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#8-results)
+9. [Summary and Conclusion](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#9-summary-and-conclusion)
+10. [Limitations](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#10-limitations-challenges-faced-during-the-project)
+11. [Future Scope](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#11-future-scope)
+12. [Credits](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#12-credits)
+13. [License](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#13-license)
 
 ## 1. Abstract
 - At the dawn of the year 2020, the world was hit by a significant pandemic COVID-19, that traumatized the entire planet.
