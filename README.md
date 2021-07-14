@@ -161,30 +161,27 @@ Figure 5: Data Pipeline
 - This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
 
 ### - 2. Analysis from doughnut plots:
-- The proposed multimodal emotion care scheme enables us to understand different dimensions of the same problem that people are talking about. 
-- Figure 6 is a clear depiction of emotions towards different modes. 
-- The emotion ‘joy’ represented by yellow colour has been lesser towards everything but nature due to the obvious fact of lessened pollution. 
-- Despite massive amount of efforts by the state and central governments, Maharashtra, Uttar Pradesh, Delhi, Tamil Nadu, Karnataka, Rajasthan, Madhya Pradesh and Haryana have been worst affected by Corona virus. 
-- This has been clearly depicted by the analysis. The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19. 
-- They have shown trust in the governmental policies and decisions as well as on their fellow citizens. 
-- Even after all this, due to the rapid spread of the virus, people have been quite fearful about catching infection. 
+- The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19.
+- They have shown trust in the governmental policies and decisions as well as on their fellow citizens.
+- Even after all this, due to the rapid spread of the virus, people have been quite fearful about catching infection.
 - The rising death toll can be another cause of distress and sadness.
-- Most people have been fearful and unsure about the outcomes of lockdown. 
-- Unemployment, working from home, falling economy and losing close ones has taken a toll on people’s emotional health. 
-- Despite all the shortcomings, people have been trying to look at the bright side of things. 
-- They have widely trusted the capabilities of teachers and schools to cope up with the changing education system. 
-- Reduction in pollution levels has been another cause of contentment amongst people. 
-- There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy. 
+- Most people have been fearful and unsure about the outcomes of lockdown.
+- Unemployment, working from home, falling economy and losing close ones has taken a toll on people’s emotional health.
+- Despite all the shortcomings, people have been trying to look at the bright side of things.
+- They have widely trusted the capabilities of teachers and schools to cope up with the changing education system.
+- Reduction in pollution levels has been another cause of contentment amongst people.
+- There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy.
 - People have been looking forward to the governmental policies towards the unlocking procedure.
 
 ### - 3. Analysis from Bubble charts:
-- Figure 7 depicts mode-wise emotion distribution during the lockdown period. 
-- COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely. 
-- Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to. 
-- The new normal is definitely not normal for people. On the other hand, many citizens have been able to cope up with the changing scenario. 
-- They are patiently waiting for things to get back to normal and focussing on their personal growth.
+
+- Figure 7 depicts mode-wise emotion distribution during the lockdown period.
+- COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely.
+- Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to.
+- The new normal is definitely not normal for people.
 
 ## 9. Summary and Conclusion
+
 - In this project, we present an emotion care scheme web-based platform to recognize the emotional state of Indian citizens throughout the ongoing COVID-19 crisis. 
 - With the help of this research, health organizations and higher authorities will be able to have a better insight into the emotional health of people and will also be able to interpret the way people react to various day-to-day decisions.     
 
