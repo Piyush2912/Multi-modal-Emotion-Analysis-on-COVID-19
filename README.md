@@ -24,7 +24,7 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 6. Done
 
 ## Table of Contents: 
-1. Abstract [1. Abstract](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19/edit/main/README.md#1-Abstract)
+1. Abstract 
 2. Motivation
 3. Problem Statement
 4. Introduction
@@ -159,6 +159,18 @@ Figure 5: Data Pipeline
   - These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
   - While at the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
   - This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
+  - The Indian State-wise 8 Emotion bar plots are as follows:
+
+![India state-wise anger score ](https://user-images.githubusercontent.com/47279598/125636352-eb814232-e6c9-45bf-a8c1-d61291a0d9aa.png)
+![India state-wise anticipation score ](https://user-images.githubusercontent.com/47279598/125636359-6bacf62d-3889-4658-b981-93b459092f07.png)
+![India state-wise disgust score ](https://user-images.githubusercontent.com/47279598/125636361-6c253af8-e03b-482d-8667-b6369818265d.png)
+![India State-wise fear Score ](https://user-images.githubusercontent.com/47279598/125636363-9e3ce057-7f3e-49d6-9267-5e4ae9f5059a.png)
+![India State-wise joy Score ](https://user-images.githubusercontent.com/47279598/125636367-81b9be0c-d9e9-474a-87c1-b5b8d1f9f254.png)
+![India State-wise sadness Score ](https://user-images.githubusercontent.com/47279598/125636370-7c64ea89-2ef8-480d-862b-7f5e8a376809.png)
+![India State-wise surprise Score ](https://user-images.githubusercontent.com/47279598/125636372-7318a350-178a-4da9-8e8d-acd45cbb6070.png)
+![India State-wise trust Score ](https://user-images.githubusercontent.com/47279598/125636375-eb818bb0-c45f-46d6-a26c-274cfef9aed9.png)
+
+
 
 ### II. Analysis from doughnut plots:
   - The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19.
@@ -172,17 +184,42 @@ Figure 5: Data Pipeline
   - Reduction in pollution levels has been another cause of contentment amongst people.
   - There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy.
   - People have been looking forward to the governmental policies towards the unlocking procedure.
+  - The 6 Multimodal Emotion doughbut plots are as follows:
+
+![Education](https://user-images.githubusercontent.com/47279598/125636867-8726f955-c0a7-4472-88ba-42b12b0976d1.png)
+![Health](https://user-images.githubusercontent.com/47279598/125636874-1c57f43a-5728-439c-b88d-68ba2a083aa0.png)
+![Lockdown](https://user-images.githubusercontent.com/47279598/125636878-5c26a884-ba00-4a13-8614-d32310e9b78f.png)
+![Market](https://user-images.githubusercontent.com/47279598/125636882-75f22753-9992-479f-b15b-851c58c1751f.png)
+![Nature](https://user-images.githubusercontent.com/47279598/125636883-4f020060-d8cf-475c-8e0f-cca38e193aa5.png)
+![Politics](https://user-images.githubusercontent.com/47279598/125636887-332996d7-f6dd-4ec4-b5af-13fe8b72b9de.png)
+
 
 ### III. Analysis from Bubble charts:
   - Figure 7 depicts mode-wise emotion distribution during the lockdown period.
   - COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely.
   - Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to.
   - The new normal is definitely not normal for people.
+  - The Emotion intensity bubble plots pertaining to 6 modes are as follows:
+
+![ANGER-final](https://user-images.githubusercontent.com/47279598/125637051-3f22939c-eeb7-47ae-be21-c4e2f8ebad69.png)
+![ANTICIPATION-final](https://user-images.githubusercontent.com/47279598/125637054-24f8bae6-7f6c-4ba3-91cc-10d9cd7dbff1.png)
+![DISGUST-final](https://user-images.githubusercontent.com/47279598/125637055-e3f9e7a6-288d-4c83-95a6-c2fe5bf7a478.png)
+![FEAR-final](https://user-images.githubusercontent.com/47279598/125637057-d08bc144-94d6-4b91-8bb0-d59217523020.png)
+![JOY-final](https://user-images.githubusercontent.com/47279598/125637060-cba06a90-0a04-4fe9-8214-748615f6cf8e.png)
+![SADNESS-final](https://user-images.githubusercontent.com/47279598/125637063-9ca10681-eba3-433b-9a1b-5695672fafec.png)
+![SURPRISE-final](https://user-images.githubusercontent.com/47279598/125637065-f3f01de3-cc85-4ef4-846e-85d741fdb35f.png)
+![TRUST-final](https://user-images.githubusercontent.com/47279598/125637067-f046f0e1-ed8d-4eb5-a4f8-93acf20fb7c6.png)
+
 
 ## 9. Summary and Conclusion
 
 - In this project, we present an emotion care scheme web-based platform to recognize the emotional state of Indian citizens throughout the ongoing COVID-19 crisis. 
-- With the help of this research, health organizations and higher authorities will be able to have a better insight into the emotional health of people and will also be able to interpret the way people react to various day-to-day decisions.     
+- Taking India as a case study, we inferred from this textual analysis that ‘joy’ has been lesser towards everything (~9-15%) but nature (~17%) due to the apparent fact of lessened pollution. 
+- The education system entailed more trust (~29%) due to teachers' fraternity's consistent efforts. 
+- The health sector witnessed sadness (~16%) and fear (~18%) as the dominant emotions among the masses as human lives were at stake. 
+- With the help of this research, health organizations and higher authorities will be able to have a better insight into the emotional health of people and will also be able to interpret the way people react to various day-to-day decisions.
+- Additionally, the state-wise and emotion-wise depiction is also provided. 
+- An interactive internet application has also been developed for the same.
 
 
 ## 10. Limitations/ Challenges faced during the project
@@ -206,6 +243,8 @@ Thanking my project mentors and teammates for caring and supporting me wholehear
   <p>   
    <p text-align= "justify"> Mentor    : Dr. Vedika Gupta : https://www.linkedin.com/in/drvedikagupta/  </p>  
    <p text-align= "justify"> Team Mate : Adarsh Kumar     : https://www.linkedin.com/in/adarsh-kumar-5b1a1719b/ </p> 
+   <p text-align= "justify"> Team Mate : Rohan Arora      : https://www.linkedin.com/in/rohanarora18/ </p> 
+   <p text-align= "justify"> Team Mate : Shreya Dhingra   : https://www.linkedin.com/in/shreya-dhingra-927b19190 </p> 
   </p>
 </div>
 
