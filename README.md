@@ -159,16 +159,16 @@ Figure 5: Data Pipeline
   - The Indian State-wise 8 Emotion (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) bar plots are as follows:
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47279598/125636352-eb814232-e6c9-45bf-a8c1-d61291a0d9aa.png" alt="India state-wise anger score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636359-6bacf62d-3889-4658-b981-93b459092f07.png" alt="India state-wise anticipation score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636361-6c253af8-e03b-482d-8667-b6369818265d.png" alt="India state-wise disgust score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636363-9e3ce057-7f3e-49d6-9267-5e4ae9f5059a.png" alt="India state-wise fear score" width="200"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636352-eb814232-e6c9-45bf-a8c1-d61291a0d9aa.png" alt="India state-wise anger score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636359-6bacf62d-3889-4658-b981-93b459092f07.png" alt="India state-wise anticipation score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636361-6c253af8-e03b-482d-8667-b6369818265d.png" alt="India state-wise disgust score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636363-9e3ce057-7f3e-49d6-9267-5e4ae9f5059a.png" alt="India state-wise fear score" width="220"/>
 </p>
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47279598/125636367-81b9be0c-d9e9-474a-87c1-b5b8d1f9f254.png" alt="India state-wise joy score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636370-7c64ea89-2ef8-480d-862b-7f5e8a376809.png" alt="India state-wise sadness score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636372-7318a350-178a-4da9-8e8d-acd45cbb6070.png" alt="India state-wise surprise score" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125636375-eb818bb0-c45f-46d6-a26c-274cfef9aed9.png" alt="India state-wise trust score" width="200"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636367-81b9be0c-d9e9-474a-87c1-b5b8d1f9f254.png" alt="India state-wise joy score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636370-7c64ea89-2ef8-480d-862b-7f5e8a376809.png" alt="India state-wise sadness score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636372-7318a350-178a-4da9-8e8d-acd45cbb6070.png" alt="India state-wise surprise score" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125636375-eb818bb0-c45f-46d6-a26c-274cfef9aed9.png" alt="India state-wise trust score" width="220"/>
 </p>
 
 
@@ -208,17 +208,17 @@ Figure 5: Data Pipeline
   - The Emotion intensity bubble plots pertaining to 6 modes are as follows:
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47279598/125637051-3f22939c-eeb7-47ae-be21-c4e2f8ebad69.png" alt="ANGER" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637054-24f8bae6-7f6c-4ba3-91cc-10d9cd7dbff1.png" alt="ANTICIPATION" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637055-e3f9e7a6-288d-4c83-95a6-c2fe5bf7a478.png" alt="DISGUST" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637057-d08bc144-94d6-4b91-8bb0-d59217523020.png" alt="FEAR" width="200"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637051-3f22939c-eeb7-47ae-be21-c4e2f8ebad69.png" alt="ANGER" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637054-24f8bae6-7f6c-4ba3-91cc-10d9cd7dbff1.png" alt="ANTICIPATION" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637055-e3f9e7a6-288d-4c83-95a6-c2fe5bf7a478.png" alt="DISGUST" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637057-d08bc144-94d6-4b91-8bb0-d59217523020.png" alt="FEAR" width="220"/>
 </p>
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/47279598/125637060-cba06a90-0a04-4fe9-8214-748615f6cf8e.png" alt="JOY" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637063-9ca10681-eba3-433b-9a1b-5695672fafec.png" alt="SADNESS" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637065-f3f01de3-cc85-4ef4-846e-85d741fdb35f.png" alt="SURPRISE" width="200"/>
-  <img src="https://user-images.githubusercontent.com/47279598/125637067-f046f0e1-ed8d-4eb5-a4f8-93acf20fb7c6.png" alt="TRUST" width="200"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637060-cba06a90-0a04-4fe9-8214-748615f6cf8e.png" alt="JOY" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637063-9ca10681-eba3-433b-9a1b-5695672fafec.png" alt="SADNESS" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637065-f3f01de3-cc85-4ef4-846e-85d741fdb35f.png" alt="SURPRISE" width="220"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125637067-f046f0e1-ed8d-4eb5-a4f8-93acf20fb7c6.png" alt="TRUST" width="220"/>
 </p>
 
 ## 9. Summary and Conclusion
