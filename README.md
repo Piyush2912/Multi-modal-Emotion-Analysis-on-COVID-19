@@ -156,7 +156,7 @@ Figure 5: Data Pipeline
   - These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
   - While at the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
   - This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
-  - The Indian State-wise 8 Emotion bar plots are as follows:
+  - The Indian State-wise 8 Emotion (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) bar plots are as follows:
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/47279598/125636352-eb814232-e6c9-45bf-a8c1-d61291a0d9aa.png" alt="India state-wise anger score" width="200"/>
