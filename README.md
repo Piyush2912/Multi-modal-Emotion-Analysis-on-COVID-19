@@ -70,9 +70,6 @@ Figure 1: Web Application
 </p>
 
 ## 5. Requirements
-All the experimental trials have been conducted on a laptop equipped by an Intel i7-8750H processor (4.1 GHz), 16 GB of RAM with 1050ti max-Q with 4 GB of VRAM. 
-The Jupyter Notebook software equipped with Python 3.8 kernel was selected in this project for the development and implementation of the different experimental trails.
-
 - Jupyter Notebook version 6.1 or above
 - Python version 3.8 or above
 - NRC Emotion Lexicons - http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.html
