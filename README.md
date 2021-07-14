@@ -47,15 +47,15 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 
 
 ## 2. Motivation
-- In the rapid developing world, with increase in technology so is increasing diseases such as Covid-19.
-- To prevent the spread of disease it is absolutely necessary to analyze and act correctly.
+- In the rapid developing world, with increasing in technology so is increasing diseases such as Covid-19.
+- To prevent the spread of disease, it is absolutely necessary to analyze and act correctly.
 - There is a need for perceiving people's emotional state during these times becomes critically and strategically important for the government and the policymakers.
 
 ## 3. Problem Statement
-- The goal is to identify the emotions of people living in diffrent states of India during 4 phases of lockdown.
+- The goal is to identify the emotions of people living in different states of India during the phases of lockdown.
 - There is availability of huge amount of data in Twitter which needs to be analyzed.
-- There is an absolute need for classification into categories in order to anazyle efficiently. 
-- In order to categories, there is a need to develope an effective algorithm for investigation of data.
+- There is an absolute need for classification into categories in order to analyze efficiently. 
+- In order to categories, there is a need to develop an effective algorithm for investigation of data.
 
 
 ## 4. Introduction
@@ -90,8 +90,8 @@ The Jupyter Notebook software equipped with Python 3.8 kernel was selected in th
 
 ## 6. Dataset Creation
 
-### Retrieving data from Twitter using Twitter API called Tweepy library available in python.
-Goto Dataset section in this repository to understand how the magic is happening.
+### Retrieving data from Twitter using Twitter API called Tweepy library available in Python.
+Go to Dataset section in this repository to understand how the magic is happening.
 
 ### Dataset Description
 
@@ -137,7 +137,7 @@ Figure 5: Data Pipeline
 - The following figure 5 represents sequential steps performed in order to reach to end goal.
 - Firstly, the twitter data is scraped from Twitter using Twitter streaming API.
 - Secondly, the dataset is curated and made in a csv format for each state.
-- Thiirdly, the tweets from the data is cleaned using basic nlp operations like:
+- Thirdly, the tweets from the data is cleaned using basic nlp operations like:
   - converting text into lowercase
   - removing user mentions
   - removing re-tweets
@@ -146,18 +146,18 @@ Figure 5: Data Pipeline
   - removing punctuations 
   - removing stopwords
 - After that, POS(Part-of-speech) tagging, also called grammatical tagging the process of marking up a word in a text (corpus) is applied on the data. 
-- After that, Multimodla vectors are created using tuples of aspect category which stores aspect terms.
-- After that, An algorithm is developed using nrc emotion lexicon and data from each states to create a Multimodal emotion scoring system using word count frequency.
-- Lastly, the results of India state-wise emotion plots are analyzed using diffrent visualization techniques such as bar plots, doughnut plots and bubble charts.
+- After that, Multimodal vectors are created using tuples of aspect category which stores aspect terms.
+- After that, An algorithm is developed using NRC emotion lexicon and data from each states to create a Multimodal emotion scoring system using word count frequency.
+- Lastly, the results of India state-wise emotion plots are analyzed using different visualization techniques such as bar plots, doughnut plots and bubble charts.
 
 
 ## 8. Results
 
 ### - 1. Analysis from bar plots:
-- The emotion of population from different states of India is analyzed and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
+- The emotion of population from different states of India is analyzed, and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
 - These states were worst hit by the pandemic which led to a sudden and massive rise in corona virus cases. 
 - These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
-- While in the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
+- While at the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
 - This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
 
 ### - 2. Analysis from doughnut plots:
@@ -180,40 +180,36 @@ Figure 5: Data Pipeline
 ### - 3. Analysis from Bubble charts:
 - Figure 7 depicts mode-wise emotion distribution during the lockdown period. 
 - COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely. 
-- Living away from family trapped in foreign lands, losing loved ones and not attending their funerals, wearing masks every time you step is not easy to adapt to. 
+- Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to. 
 - The new normal is definitely not normal for people. On the other hand, many citizens have been able to cope up with the changing scenario. 
 - They are patiently waiting for things to get back to normal and focussing on their personal growth.
 
 ## 9. Summary and Conclusion
 - In this project, we present an emotion care scheme web-based platform to recognize the emotional state of Indian citizens throughout the ongoing COVID-19 crisis. 
-- With the help of this research, health organizations and higher authorities will be able to have better insight towards the emotional health of people and will also be able to interpret the way people react to various day to day decisions.   
-
+- With the help of this research, health organizations and higher authorities will be able to have a better insight into the emotional health of people and will also be able to interpret the way people react to various day-to-day decisions.     
 
 
 ## 10. Limitations/ Challenges faced during the project
 
 - The collection of the labeled dataset was a problem because of the unavailability of the properly labeled dataset.
 - The proposed scheme currently works only on Twitter data. 
-- The model is fully-functional but it cannot be used for other languages.
+- The model is fully functional but it cannot be used for other languages.
 - The number of emotions considered in this project are 8-scale emotions (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) only.
 
 ## 11. Future Scope
 
 - The proposed scheme is scalable if data from different social media platforms is incorporated.
-- The model is fully-functional but its horizon can be widened by including different languages.
+- The model is fully functional but its horizon can be widened by including different languages.
 - The number of emotions considered can be increased to have an even more fine-grained analysis.
 - Usage of deep learning approaches might also fine-tune the current scheme.
-- To investigate new features to improve existing model.
+- To investigate new features to improve the existing model.
 
 ## 12. Credits: 
 Thanking my project mentors and teammates for caring and supporting me wholeheartedly. The role you played in my life is invaluable. I’m grateful for all of your help and continued support.
 <div class="align-text">
   <p>   
-   <p text-align= "justify"> Mentor    : Dr. Vedika Gupta : https://www.linkedin.com/in/drvedikagupta/  </p> 
-   <p text-align= "justify"> Team Mate : Rohan Arora      : https://www.linkedin.com/in/rohanarora18/  </p> 
+   <p text-align= "justify"> Mentor    : Dr. Vedika Gupta : https://www.linkedin.com/in/drvedikagupta/  </p>  
    <p text-align= "justify"> Team Mate : Adarsh Kumar     : https://www.linkedin.com/in/adarsh-kumar-5b1a1719b/ </p> 
-   <p text-align= "justify"> Team Mate : Shreya Dhingra   : https://www.linkedin.com/in/shreya-dhingra-927b19190  </p> 
-   
   </p>
 </div>
 
