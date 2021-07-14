@@ -88,7 +88,8 @@ Figure 1: Web Application
 ## 6. Dataset Creation
 
 ### Retrieving data from Twitter using Twitter API called Tweepy library available in Python.
-Go to Dataset section in this repository to understand how the magic is happening.
+
+Dataset : https://github.com/Piyush2912/Twitter_dataset
 
 ### Dataset Description
 
