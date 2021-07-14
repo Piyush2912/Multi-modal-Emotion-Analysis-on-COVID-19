@@ -24,7 +24,7 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 6. Done
 
 ## Table of Contents: 
-1. Abstract
+1. Abstract [1. Abstract](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19/edit/main/README.md#1-Abstract)
 2. Motivation
 3. Problem Statement
 4. Introduction
@@ -153,32 +153,31 @@ Figure 5: Data Pipeline
 
 ## 8. Results
 
-### - 1. Analysis from bar plots:
-- The emotion of population from different states of India is analyzed, and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
-- These states were worst hit by the pandemic which led to a sudden and massive rise in corona virus cases. 
-- These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
-- While at the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
-- This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
+### I. Analysis from bar plots:
+  - The emotion of population from different states of India is analyzed, and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
+  - These states were worst hit by the pandemic which led to a sudden and massive rise in corona virus cases. 
+  - These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
+  - While at the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
+  - This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
 
-### - 2. Analysis from doughnut plots:
-- The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19.
-- They have shown trust in the governmental policies and decisions as well as on their fellow citizens.
-- Even after all this, due to the rapid spread of the virus, people have been quite fearful about catching infection.
-- The rising death toll can be another cause of distress and sadness.
-- Most people have been fearful and unsure about the outcomes of lockdown.
-- Unemployment, working from home, falling economy and losing close ones has taken a toll on people’s emotional health.
-- Despite all the shortcomings, people have been trying to look at the bright side of things.
-- They have widely trusted the capabilities of teachers and schools to cope up with the changing education system.
-- Reduction in pollution levels has been another cause of contentment amongst people.
-- There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy.
-- People have been looking forward to the governmental policies towards the unlocking procedure.
+### II. Analysis from doughnut plots:
+  - The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19.
+  - They have shown trust in the governmental policies and decisions as well as on their fellow citizens.
+  - Even after all this, due to the rapid spread of the virus, people have been quite fearful about catching infection.
+  - The rising death toll can be another cause of distress and sadness.
+  - Most people have been fearful and unsure about the outcomes of lockdown.
+  - Unemployment, working from home, falling economy and losing close ones has taken a toll on people’s emotional health.
+  - Despite all the shortcomings, people have been trying to look at the bright side of things.
+  - They have widely trusted the capabilities of teachers and schools to cope up with the changing education system.
+  - Reduction in pollution levels has been another cause of contentment amongst people.
+  - There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy.
+  - People have been looking forward to the governmental policies towards the unlocking procedure.
 
-### - 3. Analysis from Bubble charts:
-
-- Figure 7 depicts mode-wise emotion distribution during the lockdown period.
-- COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely.
-- Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to.
-- The new normal is definitely not normal for people.
+### III. Analysis from Bubble charts:
+  - Figure 7 depicts mode-wise emotion distribution during the lockdown period.
+  - COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely.
+  - Living away from family trapped in foreign lands, losing loved ones, and not attending their funerals, wearing masks every time you step out is not easy to adapt to.
+  - The new normal is definitely not normal for people.
 
 ## 9. Summary and Conclusion
 
