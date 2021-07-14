@@ -12,7 +12,7 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 ### Link for Research Paper: https://www.sciencedirect.com/science/article/abs/pii/S0960077921000618
 ### Contributed in other researches: https://scholar.google.com/citations?user=73b_WZcAAAAJ&hl=en
 ### Link to the EmotionofIndia.com : http://emotionofindia.herokuapp.com/# 
-### Link to Download Complete Dataset: To Be Uploaded soon.
+### Link to Download Complete Dataset: https://github.com/Piyush2912/Twitter_dataset
 
 
 ## How to use?
@@ -32,53 +32,42 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 6. Dataset Creation
 7. Generic Methodology
 8. Results
-9. Comparison with other model
-10. Summary and Conclusion
-11. Limitations
-12. Future Scope
-13. Credits
-14. License
+9. Summary and Conclusion
+10. Limitations
+11. Future Scope
+12. Credits
+13. License
 
 ## 1. Abstract
-- This project is concerned with the detection of face masks.
-- There are two phrases of our project:
-  - Training: Detect face mask on images (using Keras/TensorFlow)
-  - Deployment: Detect face mask on real  time video stream
-- Dataset consist of  11,042 images combined manually.
-- MobileNetV2 architecture is used for fine tuning on the dataset.
-- Adam is used as optimizer and Binary Cross Entropy is used as a loss function.
-- Our proposed model gives an accuracy of 92.53%.
+- At the dawn of the year 2020, the world was hit by a significant pandemic COVID-19, that traumatized the entire planet.
+- The infectious spread grew in leaps and bounds and forced the policymakers and governments to move towards lockdown.
+- The lockdown further compelled people to stay under house arrest, which further resulted in an outbreak of emotions on social media platforms.
+- Perceiving people's emotional state during these times becomes critically and strategically important for the government and the policymakers.
+- In this regard, a novel emotion care scheme has been proposed in this project to analyze multimodal textual data contained in real-time tweets related to COVID-19.
+
 
 ## 2. Motivation
 - In the rapid developing world, with increase in technology so is increasing diseases such as Covid-19.
-- To prevent the spread of disease it is absolutely compulsory to wear mask.
-- There is a need for Mask Detection technique as checking mask for every person by a person is not feasible, therefore we need a deep learning algorithm which will ease the work of human workforce.
-
+- To prevent the spread of disease it is absolutely necessary to analyze and act correctly.
+- There is a need for perceiving people's emotional state during these times becomes critically and strategically important for the government and the policymakers.
 
 ## 3. Problem Statement
-- The goal is to predict whether the person is wearing a mask or not.
-- Since this is an issue of binary classification, the model if predicts correctly then a green rectangular box appears on person wearing mask. 
-- If the person is not wearing mask, the model predicts red rectangular box on his face along with accuracy score.
+- The goal is to identify the emotions of people living in diffrent states of India during 4 phases of lockdown.
+- There is availability of huge amount of data in Twitter which needs to be analyzed.
+- There is an absolute need for classification into categories in order to anazyle efficiently. 
+- In order to categories, there is a need to develope an effective algorithm for investigation of data.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123409678-135f7600-d5cc-11eb-8fe7-864357267a8c.png" />
-</p>
-<p align=center> 
-Figure 1: Mask Found
-</p>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123409982-6df8d200-d5cc-11eb-80a2-b7fe603b2c39.png" />
-</p>
-<p align=center> 
-Figure 2: Mask not found
-</p>
 
 ## 4. Introduction
-- Face Mask detection has become a very trending application due to Covid-19 pandemic, which demands for a person to wear face masks, keep social distancing and use hand sanitizers to wash your hands. 
-- While other problems of social distancing and sanitization have been addressed up till now, the problem of face mask detection has not been addressed yet.
-- This project proposes a model for face detection using OpenCV DNN, TensorFlow, Keras and MobileNetV2 architecture which is used as an image classifier. 
-- This dataset could be used for developing new face mask detectors and performing several applications.
+- This project studies 8-scale emotions (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) over multiple categories such as nature, lockdown, health, education, market, and politics.
+- This is the first of its kind linguistic analysis on multiple modes pertaining to the pandemic to the best of our understanding. 
+- An interactive internet application has also been developed for the same.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47279598/125605114-e928e43e-1557-493e-aaaa-6862fb22b316.png"/>
+</p>
+<p align=center> 
+Figure 1: Web Application 
+</p>
 
 ## 5. Requirements
 All the experimental trials have been conducted on a laptop equipped by an Intel i7-8750H processor (4.1 GHz), 16 GB of RAM with 1050ti max-Q with 4 GB of VRAM. 
@@ -86,143 +75,147 @@ The Jupyter Notebook software equipped with Python 3.8 kernel was selected in th
 
 - Jupyter Notebook version 6.1 or above
 - Python version 3.8 or above
+- NRC Emotion Lexicons - http://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.html
 - Python Libraries Used:
   - numpy https://numpy.org/doc/
   - pandas https://pandas.pydata.org/docs/
-  - TensorFlow https://www.tensorflow.org/api_docs
-  - MobileNetV2 https://keras.io/api/applications/mobilenet/
-  - OpenCV https://docs.opencv.org/3.4/
-  - scikit-learn https://scikit-learn.org/stable/user_guide.html
-  - keras https://keras.io/guides/
+  - string https://docs.python.org/3/library/string.html
   - matplotlib https://matplotlib.org/stable/users/index.html
+  - re https://docs.python.org/3/library/re.html
+  - nltk https://www.nltk.org/api/nltk.html
+  - wordcloud https://pypi.org/project/wordcloud/
+  - stopwords https://pypi.org/project/stop-words/
+  - tweepy https://docs.tweepy.org/en/stable/index.html
   - seaborn https://seaborn.pydata.org/tutorial.html
 
 ## 6. Dataset Creation
 
-### Sources of Hindi Dataset Creation
-1. Kaggle's Medical Mask Dataset by Mikolaj Witkowski: https://www.kaggle.com/mloey1/medical-face-mask-detection-dataset
-2. Masked face recognition dataset and application: https://github.com/X-zhangyang/Real-World-Masked-Face-Dataset
-3. Prajna Bhandary dataset available at PyImageSearch: https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
+### Retrieving data from Twitter using Twitter API called Tweepy library available in python.
+Goto Dataset section in this repository to understand how the magic is happening.
 
 ### Dataset Description
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123553442-d2688c80-d798-11eb-9752-35c3f5031a7d.png"/>
+  <img src="https://user-images.githubusercontent.com/47279598/125612318-d00e9b7f-c496-45dc-b8ab-0f69af94282c.png"/>
 </p>
 <p align=center> 
-Figure 3: Bar graph with class: 
-"with mask" and "without mask"
+Figure 2: Dataset First 5 rows
 </p>
-
-- The data set consist of 11,042 total images out of which 80 percent of images used for training  data set, and the rest 20 percent have been used for testing.
-- The following figure 3 shows the bar graph which represents equal 5521 images distribution between two classes, with_mask  and without_mask.
-- This accounts for approximately 8,833 images and 2,209 images, which have been used for training and testing respectively. 
-- There is equal distribution of dataset.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123553223-908b1680-d797-11eb-89f3-9fe95d48bb9e.png" />
+  <img src="https://user-images.githubusercontent.com/47279598/125612224-a53f85eb-d8b4-41e6-ba79-b65a0ae3e6c9.png"/>
 </p>
 <p align=center> 
-Figure 4: Dataset 25 images
+Figure 3: Dataset Last 5 rows
 </p>
 
-- The figure 4 represents 25 images choosen at random from complete dataset. 
-- The following figure 4 shows dataset description as follows:
-  - 'with_mask' representing image with person wearing mask.
-  - 'without_mask' representing image with person not wearing a mask.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47279598/125613655-56216733-5631-4cd2-b56a-b1cafcf2b1f9.png" />
+</p>
+<p align=center> 
+Figure 4: Word Cloud of tweeted words
+</p>
 
+- The data set consist of 8,14,887 total tweets from all around India.
+- The following figure 2 shows the first 5 rows of the dataset.
+- The following figure 3 shows the last 5 rows of the dataset.
+- The figure 4 represents most used words in tweets from complete dataset.
+- From the following figures the dataset description is described as:
+  - "S.No." depicting the number of tweet in incresing order
+  - "Tweet Posted Time (UTC)" depicting the time of posting of that particular tweet.
+  - "tweets" depicting textual content of that tweet.
+  - "Tweet Location" depicting the location from which the tweet has been posted.
+ 
 ## 7. Generic Methodology
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123554245-abac5500-d79c-11eb-9d9e-dfc0df0ebc9b.png" />
+  <img src="https://user-images.githubusercontent.com/47279598/125615027-53b9d0d2-4ab6-40b5-82fb-c371044d2a4d.png" />
 </p>
 <p align=center> 
 Figure 5: Data Pipeline
 </p>
 
 - The following figure 5 represents sequential steps performed in order to reach to end goal.
-- To predict whether a person has worn a mask correctly, the initial stage would be to train the model using a proper dataset.
-- After training the classifier, an accurate face detection model is required to detect faces, so that the SSDMNV2 model can classify whether the person is wearing a mask or not.
-- The task in this project is to raise the accuracy of mask detection without being too resource-heavy.
-- For doing this task, the DNN module was used from OpenCV, which contains a ‘Single Shot Multibox Detector’ (SSD) object detection model with ResNet-10 as its backbone architecture.
-- This approach helps in detecting faces in real-time, even on embedded devices like Raspberry Pi.
-- The following classifier uses a pre-trained model MobileNetV2 to predict whether the person is wearing a mask or not.
+- Firstly, the twitter data is scraped from Twitter using Twitter streaming API.
+- Secondly, the dataset is curated and made in a csv format for each state.
+- Thiirdly, the tweets from the data is cleaned using basic nlp operations like:
+  - converting text into lowercase
+  - removing user mentions
+  - removing re-tweets
+  - removing special characters except [a-zA-Z]
+  - removing hyperlink starts with https
+  - removing punctuations 
+  - removing stopwords
+- After that, POS(Part-of-speech) tagging, also called grammatical tagging the process of marking up a word in a text (corpus) is applied on the data. 
+- After that, Multimodla vectors are created using tuples of aspect category which stores aspect terms.
+- After that, An algorithm is developed using nrc emotion lexicon and data from each states to create a Multimodal emotion scoring system using word count frequency.
+- Lastly, the results of India state-wise emotion plots are analyzed using diffrent visualization techniques such as bar plots, doughnut plots and bubble charts.
+
 
 ## 8. Results
 
-### Confusion Matrix of SSDMNV2:
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123554750-28403300-d79f-11eb-9b76-b1dbfacd92c4.png" />
-</p>
-<p align=center> 
-Figure 6: Heatmap Respresenting Confusion Matrix
-</p>
+### - 1. Analysis from bar plots:
+- The emotion of population from different states of India is analyzed and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
+- These states were worst hit by the pandemic which led to a sudden and massive rise in corona virus cases. 
+- These could be the reason for higher fear, anger ,disgust and sadness score in these states. 
+- While in the same time they have also seen immense growth in the number of recovered patients that rises the level of trust and joy among the people. 
+- This same trend is followed in other states like Tamil Nadu, West Bengal, Andhra Pradesh too.
 
-- The confusion matrix is plotted with help of heatmap showing two dimensional matrix data in graphical format.
-- It has successfully identified 941 true positives, 1103 true negatives, 2 false positive and 163 false negatives.
+### - 2. Analysis from doughnut plots:
+- The proposed multimodal emotion care scheme enables us to understand different dimensions of the same problem that people are talking about. 
+- Figure 6 is a clear depiction of emotions towards different modes. 
+- The emotion ‘joy’ represented by yellow colour has been lesser towards everything but nature due to the obvious fact of lessened pollution. 
+- Despite massive amount of efforts by the state and central governments, Maharashtra, Uttar Pradesh, Delhi, Tamil Nadu, Karnataka, Rajasthan, Madhya Pradesh and Haryana have been worst affected by Corona virus. 
+- This has been clearly depicted by the analysis. The people have mostly been very patient during the lockdown period and have contributed their bit to stop the spread chain of COVID-19. 
+- They have shown trust in the governmental policies and decisions as well as on their fellow citizens. 
+- Even after all this, due to the rapid spread of the virus, people have been quite fearful about catching infection. 
+- The rising death toll can be another cause of distress and sadness.
+- Most people have been fearful and unsure about the outcomes of lockdown. 
+- Unemployment, working from home, falling economy and losing close ones has taken a toll on people’s emotional health. 
+- Despite all the shortcomings, people have been trying to look at the bright side of things. 
+- They have widely trusted the capabilities of teachers and schools to cope up with the changing education system. 
+- Reduction in pollution levels has been another cause of contentment amongst people. 
+- There has been a lot of anticipation regarding the final outcomes of lockdown and its impact on the economy. 
+- People have been looking forward to the governmental policies towards the unlocking procedure.
 
-### Training accuracy/loss curve on train and validation dataset
+### - 3. Analysis from Bubble charts:
+- Figure 7 depicts mode-wise emotion distribution during the lockdown period. 
+- COVID-19 has clearly, not just taken away jobs and the economy but has also affected people’s mental health adversely. 
+- Living away from family trapped in foreign lands, losing loved ones and not attending their funerals, wearing masks every time you step is not easy to adapt to. 
+- The new normal is definitely not normal for people. On the other hand, many citizens have been able to cope up with the changing scenario. 
+- They are patiently waiting for things to get back to normal and focussing on their personal growth.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123554790-5faedf80-d79f-11eb-8f65-692e3e5d2589.png" />
-</p>
-<p align=center> 
-Figure 7: Training accuracy/loss curve on train and validation dataset
-</p>
-
-- The plots are based on model accuracy/loss, the pyplot command style function that makes matplotlib work like Matlab.
-- In this figure the violet curve shows the training accuracy which is nearly equal to 98%, the grey curve represents training accuracy on the validation dataset.
-- Training loss where the red curve shows loss in training dataset less than 0.1, whereas the blue curve shows training loss on the validation dataset.
-
-## 9. Comparison with other model
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123554877-dea41800-d79f-11eb-900b-6babdc18ac1c.png" />
-</p>
-<p align=center> 
-Figure 8: Comparison with other models
-</p>
-
-###  Comparison with other implementation
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/47279598/123554923-20cd5980-d7a0-11eb-9f21-2ecea38093cd.png" />
-</p>
-<p align=center> 
-Figure 8: Comparison with other implementations
-</p>
-
-#### The following figure 8 represents on the left predictions made by similar methodology used by PyImageSearchour model vs on the right predictions made by our SSDMNV2 model.
+## 9. Summary and Conclusion
+- In this project, we present an emotion care scheme web-based platform to recognize the emotional state of Indian citizens throughout the ongoing COVID-19 crisis. 
+- With the help of this research, health organizations and higher authorities will be able to have better insight towards the emotional health of people and will also be able to interpret the way people react to various day to day decisions.   
 
 
-## 10. Summary and Conclusion
-- In our face mask detection model we successfully performed both the training and development of the image dataset which were divided into categories of people having masks and people not having masks.
-- We were able to classify our images accurately using MobileNetV2 image classifier which is one of the uniqueness of our model.
-- The technique of Object detection using OpenCV deep neural networks in our approach generated fruitful results.
-- The real time face detection model has an accuracy of 92.53% and produces a highest F1 score with 0.93.
-- A successfull research paper has been published in Elsivier journal in Sustainanble societ
 
+## 10. Limitations/ Challenges faced during the project
 
-## 11. Limitations/ Challenges faced during the project
 - The collection of the labeled dataset was a problem because of the unavailability of the properly labeled dataset.
-- Preprocessing of data was a challenge since the dataset from Masked face recognition and application contained a lot of noise, and a lot of repetitions were present in the images of this dataset.
-- Finding these corrupt images was a tricky task, but due to valid efforts, we divided the work and cleaned the data set with mask images and without mask images.
-- Due to the non-availability of an adequate amount of data for training the proposed model, the method of data augmentation is used to solve this issue.
-- The results were analyzed before applying augmentation and after applying augmentation.
-- The time taken for training the model took a lot of time (~6 to 7 hours), which was enhanced with the help of the Nvidia GPU for faster processing and calculations.
+- The proposed scheme currently works only on Twitter data. 
+- The model is fully-functional but it cannot be used for other languages.
+- The number of emotions considered in this project are 8-scale emotions (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) only.
 
-## 12. Future Scope
-- To increase the size of dataset and make it more robust.
+## 11. Future Scope
+
+- The proposed scheme is scalable if data from different social media platforms is incorporated.
+- The model is fully-functional but its horizon can be widened by including different languages.
+- The number of emotions considered can be increased to have an even more fine-grained analysis.
+- Usage of deep learning approaches might also fine-tune the current scheme.
 - To investigate new features to improve existing model.
-- Incorporating model into raspberry pi for real time identification.
-- Other researchers can use the dataset provided in this paper for further advanced models such as those of face recognition, facial landmarks, and facial part detection process.
 
-## 13. Credits: 
-Thanking my project teammates for caring and supporting me wholeheartedly. The role you played in my life is invaluable. I’m grateful for all of your help and continued support.
+## 12. Credits: 
+Thanking my project mentors and teammates for caring and supporting me wholeheartedly. The role you played in my life is invaluable. I’m grateful for all of your help and continued support.
 <div class="align-text">
-  <p>
-   <p text-align= "justify"> Agam Madan : https://www.linkedin.com/in/agam-madan/  </p>   
-   <p text-align= "justify"> Rohan Arora : https://www.linkedin.com/in/rohanarora18/  </p> 
+  <p>   
+   <p text-align= "justify"> Mentor    : Dr. Vedika Gupta : https://www.linkedin.com/in/drvedikagupta/  </p> 
+   <p text-align= "justify"> Team Mate : Rohan Arora      : https://www.linkedin.com/in/rohanarora18/  </p> 
+   <p text-align= "justify"> Team Mate : Adarsh Kumar     : https://www.linkedin.com/in/adarsh-kumar-5b1a1719b/ </p> 
+   <p text-align= "justify"> Team Mate : Shreya Dhingra   : https://www.linkedin.com/in/shreya-dhingra-927b19190  </p> 
+   
   </p>
 </div>
 
-## 14. License: 
+## 13. License: 
 - Apache License 2.0
