@@ -31,12 +31,13 @@ A novel emotion care scheme has been proposed in this project to analyze multimo
 5. [Requirements](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#5-requirements)
 6. [Dataset Creation](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#6-dataset-creation)
 7. [Generic Methodology](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#7-generic-methodology)
-8. [Results](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#8-results)
-9. [Summary and Conclusion](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#9-summary-and-conclusion)
-10. [Limitations](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#10-limitations-challenges-faced-during-the-project)
-11. [Future Scope](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#11-future-scope)
-12. [Credits](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#12-credits)
-13. [License](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#13-license)
+8. [Developed Algorithm]()
+9. [Results](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#8-results)
+10. [Summary and Conclusion](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#9-summary-and-conclusion)
+11. [Limitations](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#10-limitations-challenges-faced-during-the-project)
+12. [Future Scope](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#11-future-scope)
+13. [Credits](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#12-credits)
+14. [License](https://github.com/Piyush2912/Multi-modal-Emotion-Analysis-on-COVID-19#13-license)
 
 ## 1. Abstract
 - At the dawn of the year 2020, the world was hit by a significant pandemic COVID-19, that traumatized the entire planet.
@@ -149,7 +150,21 @@ Figure 5: Data Pipeline
 - Lastly, the results of India state-wise emotion plots are analyzed using different visualization techniques such as bar plots, doughnut plots and bubble charts.
 
 
-## 8. Results
+## 8. Developed Algorithm:
+![image](https://user-images.githubusercontent.com/47279598/125698400-39e58eba-8b2d-4b6a-a4c9-7f899ca70269.png)
+![image](https://user-images.githubusercontent.com/47279598/125698429-84ee5f58-9a80-4601-a323-02472c170012.png)
+
+ 
+- This algorithm is used for calculating the score of each multimodal category. 
+- In this algorithm, ‘T’ is the list of ‘t’ tweets, ‘Ct’ is a list obtained after cleaning of t tweets, ‘w’ is a set of tokenized words from ‘t’ tweets, ‘At’ is a set of multimodal terms and ‘csv’ is the two dimensional data frame which after processing forms different category wise tweets. 
+- The clean function is used for cleaning of tweets. 
+- The category wise function is used for separating tweets on the basis of multimodal terms. 
+- The POS tagging function is used for each category to determine adjectives and adverbs in ‘t’ tweets. 
+- The lexicon function is used for generating a list of common words from POS tagged words and lexicon words. 
+- The count frequency function is used for generating a dictionary where key is word and value is frequency of word in ‘tw’ list of tweets. 
+- The scoring system function is used for calculating the emotion score for each multimodal category
+
+## 9. Results
 
 ### I. Analysis from bar plots:
   - The emotion of population from different states of India is analyzed, and Maharashtra can be clearly seen at the top of every emotion score followed by NCT of Delhi and Karnataka. 
@@ -222,7 +237,7 @@ Figure 5: Data Pipeline
   <img src="https://user-images.githubusercontent.com/47279598/125637067-f046f0e1-ed8d-4eb5-a4f8-93acf20fb7c6.png" alt="TRUST" width="220"/>
 </p>
 
-## 9. Summary and Conclusion
+## 10. Summary and Conclusion
 
 - In this project, we present an emotion care scheme web-based platform to recognize the emotional state of Indian citizens throughout the ongoing COVID-19 crisis. 
 - Taking India as a case study, we inferred from this textual analysis that ‘joy’ has been lesser towards everything (~9-15%) but nature (~17%) due to the apparent fact of lessened pollution. 
@@ -233,14 +248,14 @@ Figure 5: Data Pipeline
 - An interactive internet application has also been developed for the same.
 
 
-## 10. Limitations/ Challenges faced during the project
+## 11. Limitations/ Challenges faced during the project
 
 - The collection of the labeled dataset was a problem because of the unavailability of the properly labeled dataset.
 - The proposed scheme currently works only on Twitter data. 
 - The model is fully functional but it cannot be used for other languages.
 - The number of emotions considered in this project are 8-scale emotions (Anger, Anticipation, Disgust, Fear, Joy, Sadness, Surprise, and Trust) only.
 
-## 11. Future Scope
+## 12. Future Scope
 
 - The proposed scheme is scalable if data from different social media platforms is incorporated.
 - The model is fully functional but its horizon can be widened by including different languages.
@@ -248,7 +263,7 @@ Figure 5: Data Pipeline
 - Usage of deep learning approaches might also fine-tune the current scheme.
 - To investigate new features to improve the existing model.
 
-## 12. Credits: 
+## 13. Credits: 
 Thanking my project mentors and teammates for caring and supporting me wholeheartedly. The role you played in my life is invaluable. I’m grateful for all of your help and continued support.
 <div class="align-text">
   <p>   
@@ -259,5 +274,5 @@ Thanking my project mentors and teammates for caring and supporting me wholehear
   </p>
 </div>
 
-## 13. License: 
+## 14. License: 
 - Apache License 2.0
